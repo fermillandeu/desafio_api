@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="box">
+        <h1>Conversor de moneda nacional</h1>
+        <hr>
+        <div class="container-peso">
+            <h2>Pesos CLP</h2>
+            <div class="input-group mb-3">
+                <span class="input-group-text">$</span>
+                <input type="text" id="inputAmount" class="form-control" aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text"></span>
+            </div>
+            <h3>Moneda a convertir:</h3>
+            <select id="currencySelect" class="form-select" aria-label="Default select example">
+                <option selected value="">Seleccione una moneda</option>
+                <option value="dolar">Dólar</option>
+                <option value="euro">Euro</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select>
+            <button id="convertButton" class="button">Buscar</button>  
+            <div id="result"></div>
+        </div>
+        <div class="grafica">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>   
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+hr {
+    width: 500px;
+    border-color: blue;
+}
+h1, h2, h3 {
+    color: white;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: grey;
+}
+.container-peso {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-moneda {
+    display: flex;
+    justify-content: center;
+}
+.grafica {
+    margin: 20px;
+    width: 80%;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+}
+.form-control, .form-select, .input-group-text {
+    margin-right: 10px;
+}
+#result {
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #00bfff; /* Celeste */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+canvas {
+    background-color: transparent; /* Fondo transparente por defecto */
+}
